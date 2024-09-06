@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@500&display=swap');
+
+  @layer base{
+    body{
+      @apply font-[Raleway]
+    }
+  }
+body {
+  margin: 0;
+  
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell','Raleway', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+    font-family: 'Raleway';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #1f2937; /* Puedes ajustar el color de fondo según tu diseño */
+  color: white;
+  padding: 10px 0;
+  z-index: 1000; /* Asegura que el navbar esté por encima de otros elementos */
+}.main-content {
+  padding-top: 70px; /* Ajusta este valor según la altura del navbar */
+}
+
